@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSK Fan Hub 2025 | Chennai Super Kings Official Supporters</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/csk-logo.jpg" alt="CSK Logo">
+                <h1>CSK Fan Hub</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#schedule">Matches</a></li>
+                    <li><a href="#squad">Squad</a></li>
+                    <li><a href="#stats">Stats</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#fan-zone">Fan Zone</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h2>Whistle Podu! 🦁💛</h2>
+            <p>Official fan hub for Chennai Super Kings | IPL 2025 Season</p>
+            <button class="btn-whistle">Join the Roar!</button>
+        </div>
+    </section>
+
+    <!-- Match Schedule Section -->
+    <section class="match-schedule" id="schedule">
+        <h2><i class="fas fa-calendar-alt"></i> IPL 2025 Schedule</h2>
+        <div class="match-filters">
+            <button class="filter-btn active" data-filter="all">All Matches</button>
+            <button class="filter-btn" data-filter="home">Home Games</button>
+            <button class="filter-btn" data-filter="away">Away Games</button>
+        </div>
+        <div class="match-container" id="matchContainer">
+            <div class="loading-matches">
+                <i class="fas fa-spinner fa-spin"></i> Loading match schedule...
+            </div>
+        </div>
+    </section>
+
+    <!-- Squad Section -->
+    <section class="squad" id="squad">
+        <h2><i class="fas fa-users"></i> CSK Squad 2025</h2>
+        <div class="player-filters">
+            <button class="player-filter active" data-filter="all">All</button>
+            <button class="player-filter" data-filter="batsman">Batsmen</button>
+            <button class="player-filter" data-filter="bowler">Bowlers</button>
+            <button class="player-filter" data-filter="allrounder">All-Rounders</button>
+        </div>
+        <div class="player-container" id="playerContainer">
+            <!-- Players loaded via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats" id="stats">
+        <h2><i class="fas fa-chart-bar"></i> Team Statistics</h2>
+        <div class="stats-container">
+            <div class="stat-card">
+                <h3>Matches Played</h3>
+                <p id="matchesPlayed">14</p>
+            </div>
+            <div class="stat-card">
+                <h3>Wins</h3>
+                <p id="wins">10</p>
+            </div>
+            <div class="stat-card">
+                <h3>Losses</h3>
+                <p id="losses">4</p>
+            </div>
+            <div class="stat-card">
+                <h3>Top Scorer</h3>
+                <p id="topScorer">Ruturaj Gaikwad (589 runs)</p>
+            </div>
+            <div class="stat-card">
+                <h3>Top Wicket-taker</h3>
+                <p id="topWicketTaker">Deepak Chahar (22 wickets)</p>
+            </div>
+        </div>
+        <div class="chart-container">
+            <canvas id="performanceChart"></canvas>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section class="news" id="news">
+        <h2><i class="far fa-newspaper"></i> Latest CSK News</h2>
+        <div class="news-container" id="newsContainer">
+            <!-- News loaded via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Fan Zone Section -->
+    <section class="fan-zone" id="fan-zone">
+        <h2><i class="fas fa-heart"></i> Fan Zone</h2>
+        <div class="fan-content">
+            <div class="poll">
+                <h3>Fan Poll</h3>
+                <p>Who will be CSK's MVP in IPL 2025?</p>
+                <form id="fanPoll">
+                    <div class="poll-option">
+                        <input type="radio" id="option1" name="poll" value="Dhoni">
+                        <label for="option1">MS Dhoni</label>
+                    </div>
+                    <div class="poll-option">
+                        <input type="radio" id="option2" name="poll" value="Jadeja">
+                        <label for="option2">Ravindra Jadeja</label>
+                    </div>
+                    <div class="poll-option">
+                        <input type="radio" id="option3" name="poll" value="Ruturaj">
+                        <label for="option3">Ruturaj Gaikwad</label>
+                    </div>
+                    <button type="submit" class="btn">Vote Now</button>
+                </form>
+            </div>
+            <div class="social-feed">
+                <h3>#WhistlePodu on Twitter</h3>
+                <div class="tweet" id="tweetContainer">
+                    <!-- Tweets loaded via JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/csk-logo.jpg" alt="CSK Logo">
+                    <p>CSK Fan Hub - Made with ❤️ by Yellow Army</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/TheChennaiSuperKings/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://x.com/ChennaiIPL?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/chennaiipl/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UC2J_VKrAzOEJuQvFFtj3KUw"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2025 CSK Fan Hub. Not an official CSK website.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script> <!-- Link to the JavaScript file -->
+</body>
+</html>

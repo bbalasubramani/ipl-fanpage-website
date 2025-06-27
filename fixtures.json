@@ -1,0 +1,138 @@
+{
+    "matches": [
+        {
+            "date": "2025-03-25",
+            "team1": {
+                "name": "Chennai Super Kings",
+                "logo": "images/csk-logo.png"
+            },
+            "team2": {
+                "name": "Mumbai Indians",
+                "logo": "images/mi-logo.png"
+            },
+            "venue": "M.A. Chidambaram Stadium, Chennai",
+            "time": "7:30 PM"
+        },
+        {
+            "date": "2025-03-27",
+            "team1": {
+                "name": "Royal Challengers Bangalore",
+                "logo": "images/rcb-logo.png"
+            },
+            "team2": {
+                "name": "Chennai Super Kings",
+                "logo": "images/csk-logo.png"
+            },
+            "venue": "M. Chinnaswamy Stadium, Bangalore",
+            "time": "7:30 PM"
+        }
+    ],
+    "players": [
+        {
+            "name": "MS Dhoni",
+            "role": "Wicketkeeper-Batsman",
+            "image": "images/Dhoni.jpg",
+            "runs": 196,
+            "wickets": 0
+        },
+        {
+            "name": "Ruturaj Gaikwad",
+            "role": "Batsman",
+            "image": "images/Ruturaj.jpg",
+            "runs": 122,
+            "wickets": 0
+        },
+        {
+            "name": "Devon Conway",
+            "role": "Wicketkeeper",
+            "image": "images/Devon.jpg",
+            "runs": 0,
+            "wickets": 22
+        },
+        {
+            "name": "Matheesha Pathirana",
+            "role": "Bowler",
+            "image": "images/Pathirana.jpg",
+            "runs": 0,
+            "wickets": 13
+        },
+        {
+            "name": "Rachin Ravindra",
+            "role": "All-Rounder",
+            "image": "images/Rachin.jpg",
+            "runs": 191,
+            "wickets": 0
+        },
+        {
+            "name": "Noor Ahmad",
+            "role": "Bowler",
+            "image": "images/Noor.jpg",
+            "runs": 0,
+            "wickets": 24
+        },
+        {
+            "name": "Jamie Overton",
+            "role": "All-Rounder",
+            "image": "images/Jamie.jpg",
+            "runs": 15,
+            "wickets": 0
+        },
+        {
+            "name": "Nathan Ellis",
+            "role": "Bowler",
+            "image": "images/Ellis.jpg",
+            "runs": 0,
+            "wickets": 0
+        },
+        {
+            "name": "Ravindra Jadeja",
+            "role": "All-Rounder",
+            "image": "images/Jadeja.jpg",
+            "runs": 301,
+            "wickets": 10
+        },
+        {
+            "name": "Ravichandra Ashwin",
+            "role": "All-Rounder",
+            "image": "images/Ashwin.jpg",
+            "runs": 125,
+            "wickets": 10
+        },
+        {
+            "name": "Vijay Shankar",
+            "role": "All-Rounder",
+            "image": "images/Shankar.jpg",
+            "runs": 0,
+            "wickets": 10
+        },
+        {
+            "name": "Khaleel Ahmed",
+            "role": "Bowler",
+            "image": "images/Khaleel.jpg",
+            "runs": 0,
+            "wickets": 14
+        },
+        {
+            "name": "Rahul Tripathi",
+            "role": "Batsman",
+            "image": "images/Rahul.jpg",
+            "runs": 55,
+            "wickets": 0
+        },
+        {
+            "name": "Shiwam Dube",
+            "role": "All-Rounder",
+            "image": "images/Dube.jpg",
+            "runs": 357,
+            "wickets": 0
+        },
+        {
+            "name": "Ben Stokes",
+            "role": "All-Rounder",
+            "image": "images/Ben.jpg",
+            "runs": 0,
+            "wickets": 0
+        }
+        
+    ]
+}
